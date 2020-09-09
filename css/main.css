@@ -1,33 +1,44 @@
 html {
-  box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   background-color: #ccc;
 }
 
-img {
-  display: block;
-  width: 10%;
-  align-items: center;
+section ul{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  padding: .5rem 1rem .6rem, 2rem;
+}
+
+li img {
+  width: 5rem;
 }
 
 h2 {
   text-align: center;
-  font-size: 1.5rem;
-  justify-content: center;
 }
 
-h3 {
-  text-align: center;
+li hgroup {
+  width: 15rem;
+  margin: 1.5rem;
 }
 
-h4 {
-  text-align: center;
+li a {
+  color: #ccc;
+  text-decoration: none;
+  width: 5rem;
+  margin: 4rem;
+  background-color: #444;
+
 }
 
-p {
-
-}
-
-a {
-  padding-left: 90%;
+li p {
+  width: 50%;
+  margin: auto;
 }
