@@ -42,3 +42,15 @@ html {
     background-color: #444;
     padding: .6rem;
   }
+
+  ul {
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1.5rem;
+    align-items: center;
+  }
