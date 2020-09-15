@@ -54,3 +54,18 @@ html {
     margin: 1.5rem;
     align-items: center;
   }
+
+  img {
+    width: 100%;
+    display: block;
+    max-width: 5rem;
+  }
+
+  li hgroup {
+    width: 16rem;
+    padding: 2rem;
+  }
+
+  p {
+    max-width: 24rem;
+  }
